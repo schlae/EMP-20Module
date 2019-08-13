@@ -1,0 +1,2505 @@
+EESchema Schematic File Version 4
+LIBS:Module02-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L EMP-20~Module:EMP_Socket J1
+U 1 1 5D355751
+P 9450 1400
+F 0 "J1" V 8700 -2550 50  0000 C CNN
+F 1 "SIDE A" V 8800 -2550 50  0000 C CNN
+F 2 "Conn:EDGE_DIMM_80_127" H 9450 1400 50  0001 C CNN
+F 3 "" H 9450 1400 50  0001 C CNN
+	1    9450 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5D36527C
+P 1650 1850
+F 0 "JP1" H 1400 1900 50  0000 L CNN
+F 1 "ID0" H 1900 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1650 1850 50  0001 C CNN
+F 3 "~" H 1650 1850 50  0001 C CNN
+	1    1650 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP2
+U 1 1 5D366154
+P 1750 1850
+F 0 "JP2" H 1500 1900 50  0000 L CNN
+F 1 "ID1" H 2000 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1750 1850 50  0001 C CNN
+F 3 "~" H 1750 1850 50  0001 C CNN
+	1    1750 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP3
+U 1 1 5D3663C7
+P 1850 1850
+F 0 "JP3" H 1600 1900 50  0000 L CNN
+F 1 "ID2" H 2100 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1850 1850 50  0001 C CNN
+F 3 "~" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP4
+U 1 1 5D3665AB
+P 1950 1850
+F 0 "JP4" H 1700 1900 50  0000 L CNN
+F 1 "ID3" H 2200 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1950 1850 50  0001 C CNN
+F 3 "~" H 1950 1850 50  0001 C CNN
+	1    1950 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP5
+U 1 1 5D3667A3
+P 2050 1850
+F 0 "JP5" H 1800 1900 50  0000 L CNN
+F 1 "ID4" H 2300 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2050 1850 50  0001 C CNN
+F 3 "~" H 2050 1850 50  0001 C CNN
+	1    2050 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP6
+U 1 1 5D366996
+P 2150 1850
+F 0 "JP6" H 1900 1900 50  0000 L CNN
+F 1 "ID5" H 2400 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2150 1850 50  0001 C CNN
+F 3 "~" H 2150 1850 50  0001 C CNN
+	1    2150 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP7
+U 1 1 5D366BD2
+P 2250 1850
+F 0 "JP7" H 2000 1900 50  0000 L CNN
+F 1 "ID6" H 2500 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2250 1850 50  0001 C CNN
+F 3 "~" H 2250 1850 50  0001 C CNN
+	1    2250 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 1600 1550 2050
+Wire Wire Line
+	1550 2050 1650 2050
+Wire Wire Line
+	2250 2050 2250 2000
+Wire Wire Line
+	2150 2000 2150 2050
+Connection ~ 2150 2050
+Wire Wire Line
+	2150 2050 2250 2050
+Wire Wire Line
+	2050 2000 2050 2050
+Connection ~ 2050 2050
+Wire Wire Line
+	2050 2050 2150 2050
+Wire Wire Line
+	1950 2000 1950 2050
+Connection ~ 1950 2050
+Wire Wire Line
+	1950 2050 2050 2050
+Wire Wire Line
+	1850 2000 1850 2050
+Connection ~ 1850 2050
+Wire Wire Line
+	1850 2050 1950 2050
+Wire Wire Line
+	1750 2000 1750 2050
+Connection ~ 1750 2050
+Wire Wire Line
+	1750 2050 1850 2050
+Wire Wire Line
+	1650 2000 1650 2050
+Connection ~ 1650 2050
+Wire Wire Line
+	1650 2050 1750 2050
+Wire Wire Line
+	1650 1700 1650 1600
+Wire Wire Line
+	1750 1700 1750 1600
+Wire Wire Line
+	1850 1700 1850 1600
+Wire Wire Line
+	1950 1700 1950 1600
+Wire Wire Line
+	2050 1700 2050 1600
+Wire Wire Line
+	2150 1700 2150 1600
+Wire Wire Line
+	2250 1700 2250 1600
+Wire Wire Line
+	2350 2200 2350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP9
+U 1 1 5D37CB87
+P 2450 1850
+F 0 "JP9" H 2200 1900 50  0000 L CNN
+F 1 "ID7" H 2700 1850 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2450 1850 50  0001 C CNN
+F 3 "~" H 2450 1850 50  0001 C CNN
+	1    2450 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 1700 2450 1600
+Wire Wire Line
+	2450 2000 2450 2050
+Wire Wire Line
+	2450 2050 2250 2050
+Connection ~ 2250 2050
+$Comp
+L Jumper:SolderJumper_2_Open JP8
+U 1 1 5D3861C9
+P 2350 2350
+F 0 "JP8" H 2100 2400 50  0000 L CNN
+F 1 "72" H 2600 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2350 2350 50  0001 C CNN
+F 3 "~" H 2350 2350 50  0001 C CNN
+	1    2350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2200 9350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP74
+U 1 1 5D390CA8
+P 9350 2350
+F 0 "JP74" H 9100 2400 50  0000 L CNN
+F 1 "2" H 9650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9350 2350 50  0001 C CNN
+F 3 "~" H 9350 2350 50  0001 C CNN
+	1    9350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 2200 9250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP73
+U 1 1 5D391F14
+P 9250 2350
+F 0 "JP73" H 9000 2400 50  0000 L CNN
+F 1 "3" H 9550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9250 2350 50  0001 C CNN
+F 3 "~" H 9250 2350 50  0001 C CNN
+	1    9250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 2200 9150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP72
+U 1 1 5D392D03
+P 9150 2350
+F 0 "JP72" H 8900 2400 50  0000 L CNN
+F 1 "4" H 9450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9150 2350 50  0001 C CNN
+F 3 "~" H 9150 2350 50  0001 C CNN
+	1    9150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 2200 9050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP71
+U 1 1 5D392D0E
+P 9050 2350
+F 0 "JP71" H 8800 2400 50  0000 L CNN
+F 1 "5" H 9350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9050 2350 50  0001 C CNN
+F 3 "~" H 9050 2350 50  0001 C CNN
+	1    9050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 2200 8950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP70
+U 1 1 5D3A3356
+P 8950 2350
+F 0 "JP70" H 8700 2400 50  0000 L CNN
+F 1 "6" H 9250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8950 2350 50  0001 C CNN
+F 3 "~" H 8950 2350 50  0001 C CNN
+	1    8950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 2200 8850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP69
+U 1 1 5D3A3361
+P 8850 2350
+F 0 "JP69" H 8600 2400 50  0000 L CNN
+F 1 "7" H 9150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8850 2350 50  0001 C CNN
+F 3 "~" H 8850 2350 50  0001 C CNN
+	1    8850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 2200 8750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP68
+U 1 1 5D3A336C
+P 8750 2350
+F 0 "JP68" H 8500 2400 50  0000 L CNN
+F 1 "8" H 9050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8750 2350 50  0001 C CNN
+F 3 "~" H 8750 2350 50  0001 C CNN
+	1    8750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 2200 8650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP67
+U 1 1 5D3A3377
+P 8650 2350
+F 0 "JP67" H 8400 2400 50  0000 L CNN
+F 1 "9" H 8950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8650 2350 50  0001 C CNN
+F 3 "~" H 8650 2350 50  0001 C CNN
+	1    8650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 2200 8550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP66
+U 1 1 5D3A6679
+P 8550 2350
+F 0 "JP66" H 8300 2400 50  0000 L CNN
+F 1 "10" H 8850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8550 2350 50  0001 C CNN
+F 3 "~" H 8550 2350 50  0001 C CNN
+	1    8550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 2200 8450 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP65
+U 1 1 5D3A6684
+P 8450 2350
+F 0 "JP65" H 8200 2400 50  0000 L CNN
+F 1 "11" H 8750 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8450 2350 50  0001 C CNN
+F 3 "~" H 8450 2350 50  0001 C CNN
+	1    8450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 2200 8350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP64
+U 1 1 5D3A668F
+P 8350 2350
+F 0 "JP64" H 8100 2400 50  0000 L CNN
+F 1 "12" H 8650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8350 2350 50  0001 C CNN
+F 3 "~" H 8350 2350 50  0001 C CNN
+	1    8350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 2200 8250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP63
+U 1 1 5D3A669A
+P 8250 2350
+F 0 "JP63" H 8000 2400 50  0000 L CNN
+F 1 "13" H 8550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8250 2350 50  0001 C CNN
+F 3 "~" H 8250 2350 50  0001 C CNN
+	1    8250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 2200 8150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP62
+U 1 1 5D3A66A5
+P 8150 2350
+F 0 "JP62" H 7900 2400 50  0000 L CNN
+F 1 "14" H 8450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8150 2350 50  0001 C CNN
+F 3 "~" H 8150 2350 50  0001 C CNN
+	1    8150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 2200 8050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP61
+U 1 1 5D3A66B0
+P 8050 2350
+F 0 "JP61" H 7800 2400 50  0000 L CNN
+F 1 "15" H 8350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8050 2350 50  0001 C CNN
+F 3 "~" H 8050 2350 50  0001 C CNN
+	1    8050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 2200 7950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP60
+U 1 1 5D3A66BB
+P 7950 2350
+F 0 "JP60" H 7700 2400 50  0000 L CNN
+F 1 "16" H 8250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7950 2350 50  0001 C CNN
+F 3 "~" H 7950 2350 50  0001 C CNN
+	1    7950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 2200 7850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP59
+U 1 1 5D3A66C6
+P 7850 2350
+F 0 "JP59" H 7600 2400 50  0000 L CNN
+F 1 "17" H 8150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7850 2350 50  0001 C CNN
+F 3 "~" H 7850 2350 50  0001 C CNN
+	1    7850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 2200 7750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP58
+U 1 1 5D3AC9CE
+P 7750 2350
+F 0 "JP58" H 7500 2400 50  0000 L CNN
+F 1 "18" H 8050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7750 2350 50  0001 C CNN
+F 3 "~" H 7750 2350 50  0001 C CNN
+	1    7750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 2200 7650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP57
+U 1 1 5D3AC9D9
+P 7650 2350
+F 0 "JP57" H 7400 2400 50  0000 L CNN
+F 1 "19" H 7950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7650 2350 50  0001 C CNN
+F 3 "~" H 7650 2350 50  0001 C CNN
+	1    7650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 2200 7550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP56
+U 1 1 5D3AC9E4
+P 7550 2350
+F 0 "JP56" H 7300 2400 50  0000 L CNN
+F 1 "20" H 7850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7550 2350 50  0001 C CNN
+F 3 "~" H 7550 2350 50  0001 C CNN
+	1    7550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 2200 7450 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP55
+U 1 1 5D3AC9EF
+P 7450 2350
+F 0 "JP55" H 7200 2400 50  0000 L CNN
+F 1 "21" H 7750 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7450 2350 50  0001 C CNN
+F 3 "~" H 7450 2350 50  0001 C CNN
+	1    7450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 2200 7350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP54
+U 1 1 5D3AC9FA
+P 7350 2350
+F 0 "JP54" H 7100 2400 50  0000 L CNN
+F 1 "22" H 7650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7350 2350 50  0001 C CNN
+F 3 "~" H 7350 2350 50  0001 C CNN
+	1    7350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2200 7250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP53
+U 1 1 5D3ACA05
+P 7250 2350
+F 0 "JP53" H 7000 2400 50  0000 L CNN
+F 1 "23" H 7550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7250 2350 50  0001 C CNN
+F 3 "~" H 7250 2350 50  0001 C CNN
+	1    7250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 2200 7150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP52
+U 1 1 5D3ACA10
+P 7150 2350
+F 0 "JP52" H 6900 2400 50  0000 L CNN
+F 1 "24" H 7450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7150 2350 50  0001 C CNN
+F 3 "~" H 7150 2350 50  0001 C CNN
+	1    7150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 2200 7050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP51
+U 1 1 5D3ACA1B
+P 7050 2350
+F 0 "JP51" H 6800 2400 50  0000 L CNN
+F 1 "25" H 7350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7050 2350 50  0001 C CNN
+F 3 "~" H 7050 2350 50  0001 C CNN
+	1    7050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 2200 6950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP50
+U 1 1 5D3ACA26
+P 6950 2350
+F 0 "JP50" H 6700 2400 50  0000 L CNN
+F 1 "26" H 7250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6950 2350 50  0001 C CNN
+F 3 "~" H 6950 2350 50  0001 C CNN
+	1    6950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 2200 6850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP49
+U 1 1 5D3ACA31
+P 6850 2350
+F 0 "JP49" H 6600 2400 50  0000 L CNN
+F 1 "27" H 7150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6850 2350 50  0001 C CNN
+F 3 "~" H 6850 2350 50  0001 C CNN
+	1    6850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 2200 6750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP48
+U 1 1 5D3ACA3C
+P 6750 2350
+F 0 "JP48" H 6500 2400 50  0000 L CNN
+F 1 "28" H 7050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6750 2350 50  0001 C CNN
+F 3 "~" H 6750 2350 50  0001 C CNN
+	1    6750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 2200 6650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP47
+U 1 1 5D3ACA47
+P 6650 2350
+F 0 "JP47" H 6400 2400 50  0000 L CNN
+F 1 "29" H 6950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6650 2350 50  0001 C CNN
+F 3 "~" H 6650 2350 50  0001 C CNN
+	1    6650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 2200 6550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP46
+U 1 1 5D3ACA52
+P 6550 2350
+F 0 "JP46" H 6300 2400 50  0000 L CNN
+F 1 "30" H 6850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6550 2350 50  0001 C CNN
+F 3 "~" H 6550 2350 50  0001 C CNN
+	1    6550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 2200 6450 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP45
+U 1 1 5D3ACA5D
+P 6450 2350
+F 0 "JP45" H 6200 2400 50  0000 L CNN
+F 1 "31" H 6750 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6450 2350 50  0001 C CNN
+F 3 "~" H 6450 2350 50  0001 C CNN
+	1    6450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2200 6350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP44
+U 1 1 5D3ACA68
+P 6350 2350
+F 0 "JP44" H 6100 2400 50  0000 L CNN
+F 1 "32" H 6650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6350 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+	1    6350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2200 6250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP43
+U 1 1 5D3ACA73
+P 6250 2350
+F 0 "JP43" H 6000 2400 50  0000 L CNN
+F 1 "33" H 6550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6250 2350 50  0001 C CNN
+F 3 "~" H 6250 2350 50  0001 C CNN
+	1    6250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 2200 6150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP42
+U 1 1 5D3BA245
+P 6150 2350
+F 0 "JP42" H 5900 2400 50  0000 L CNN
+F 1 "34" H 6450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6150 2350 50  0001 C CNN
+F 3 "~" H 6150 2350 50  0001 C CNN
+	1    6150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 2200 6050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP41
+U 1 1 5D3BA250
+P 6050 2350
+F 0 "JP41" H 5800 2400 50  0000 L CNN
+F 1 "35" H 6350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6050 2350 50  0001 C CNN
+F 3 "~" H 6050 2350 50  0001 C CNN
+	1    6050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 2200 5950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP40
+U 1 1 5D3BA25B
+P 5950 2350
+F 0 "JP40" H 5700 2400 50  0000 L CNN
+F 1 "36" H 6250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5950 2350 50  0001 C CNN
+F 3 "~" H 5950 2350 50  0001 C CNN
+	1    5950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2200 5850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP39
+U 1 1 5D3BA266
+P 5850 2350
+F 0 "JP39" H 5600 2400 50  0000 L CNN
+F 1 "37" H 6150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5850 2350 50  0001 C CNN
+F 3 "~" H 5850 2350 50  0001 C CNN
+	1    5850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 2200 5750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP38
+U 1 1 5D3BA271
+P 5750 2350
+F 0 "JP38" H 5500 2400 50  0000 L CNN
+F 1 "38" H 6050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5750 2350 50  0001 C CNN
+F 3 "~" H 5750 2350 50  0001 C CNN
+	1    5750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 2200 5650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP37
+U 1 1 5D3BA27C
+P 5650 2350
+F 0 "JP37" H 5400 2400 50  0000 L CNN
+F 1 "39" H 5950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5650 2350 50  0001 C CNN
+F 3 "~" H 5650 2350 50  0001 C CNN
+	1    5650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 2200 5550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP36
+U 1 1 5D3BA287
+P 5550 2350
+F 0 "JP36" H 5300 2400 50  0000 L CNN
+F 1 "40" H 5850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5550 2350 50  0001 C CNN
+F 3 "~" H 5550 2350 50  0001 C CNN
+	1    5550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 2200 5450 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP35
+U 1 1 5D3BA292
+P 5450 2350
+F 0 "JP35" H 5200 2400 50  0000 L CNN
+F 1 "41" H 5750 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5450 2350 50  0001 C CNN
+F 3 "~" H 5450 2350 50  0001 C CNN
+	1    5450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 2200 5350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP34
+U 1 1 5D3BA29D
+P 5350 2350
+F 0 "JP34" H 5100 2400 50  0000 L CNN
+F 1 "42" H 5650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5350 2350 50  0001 C CNN
+F 3 "~" H 5350 2350 50  0001 C CNN
+	1    5350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 2200 5250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP33
+U 1 1 5D3BA2A8
+P 5250 2350
+F 0 "JP33" H 5000 2400 50  0000 L CNN
+F 1 "43" H 5550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5250 2350 50  0001 C CNN
+F 3 "~" H 5250 2350 50  0001 C CNN
+	1    5250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 2200 5150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP32
+U 1 1 5D3BA2B3
+P 5150 2350
+F 0 "JP32" H 4900 2400 50  0000 L CNN
+F 1 "44" H 5450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5150 2350 50  0001 C CNN
+F 3 "~" H 5150 2350 50  0001 C CNN
+	1    5150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 2200 5050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP31
+U 1 1 5D3BA2BE
+P 5050 2350
+F 0 "JP31" H 4800 2400 50  0000 L CNN
+F 1 "45" H 5350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5050 2350 50  0001 C CNN
+F 3 "~" H 5050 2350 50  0001 C CNN
+	1    5050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 2200 4950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP30
+U 1 1 5D3BA2C9
+P 4950 2350
+F 0 "JP30" H 4700 2400 50  0000 L CNN
+F 1 "46" H 5250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4950 2350 50  0001 C CNN
+F 3 "~" H 4950 2350 50  0001 C CNN
+	1    4950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 2200 4850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP29
+U 1 1 5D3BA2D4
+P 4850 2350
+F 0 "JP29" H 4600 2400 50  0000 L CNN
+F 1 "47" H 5150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4850 2350 50  0001 C CNN
+F 3 "~" H 4850 2350 50  0001 C CNN
+	1    4850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 2200 4750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP28
+U 1 1 5D3BA2DF
+P 4750 2350
+F 0 "JP28" H 4500 2400 50  0000 L CNN
+F 1 "48" H 5050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4750 2350 50  0001 C CNN
+F 3 "~" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2200 4650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP27
+U 1 1 5D3C4FE6
+P 4650 2350
+F 0 "JP27" H 4400 2400 50  0000 L CNN
+F 1 "49" H 4950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4650 2350 50  0001 C CNN
+F 3 "~" H 4650 2350 50  0001 C CNN
+	1    4650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 2200 4150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP26
+U 1 1 5D3C8591
+P 4150 2350
+F 0 "JP26" H 3900 2400 50  0000 L CNN
+F 1 "54" H 4450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4150 2350 50  0001 C CNN
+F 3 "~" H 4150 2350 50  0001 C CNN
+	1    4150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2200 4050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP25
+U 1 1 5D3C859C
+P 4050 2350
+F 0 "JP25" H 3800 2400 50  0000 L CNN
+F 1 "55" H 4350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4050 2350 50  0001 C CNN
+F 3 "~" H 4050 2350 50  0001 C CNN
+	1    4050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 2200 3950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP24
+U 1 1 5D3C85A7
+P 3950 2350
+F 0 "JP24" H 3700 2400 50  0000 L CNN
+F 1 "56" H 4250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3950 2350 50  0001 C CNN
+F 3 "~" H 3950 2350 50  0001 C CNN
+	1    3950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 2200 3850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP23
+U 1 1 5D3C85B2
+P 3850 2350
+F 0 "JP23" H 3600 2400 50  0000 L CNN
+F 1 "57" H 4150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3850 2350 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 2200 3750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP22
+U 1 1 5D3C85BD
+P 3750 2350
+F 0 "JP22" H 3500 2400 50  0000 L CNN
+F 1 "58" H 4050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3750 2350 50  0001 C CNN
+F 3 "~" H 3750 2350 50  0001 C CNN
+	1    3750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 2200 3650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP21
+U 1 1 5D3C85C8
+P 3650 2350
+F 0 "JP21" H 3400 2400 50  0000 L CNN
+F 1 "59" H 3950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3650 2350 50  0001 C CNN
+F 3 "~" H 3650 2350 50  0001 C CNN
+	1    3650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2200 3550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP20
+U 1 1 5D3C85D3
+P 3550 2350
+F 0 "JP20" H 3300 2400 50  0000 L CNN
+F 1 "60" H 3850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3550 2350 50  0001 C CNN
+F 3 "~" H 3550 2350 50  0001 C CNN
+	1    3550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 2200 3450 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP19
+U 1 1 5D3C85DE
+P 3450 2350
+F 0 "JP19" H 3200 2400 50  0000 L CNN
+F 1 "61" H 3750 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3450 2350 50  0001 C CNN
+F 3 "~" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 2200 3350 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP18
+U 1 1 5D3C85E9
+P 3350 2350
+F 0 "JP18" H 3100 2400 50  0000 L CNN
+F 1 "62" H 3650 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3350 2350 50  0001 C CNN
+F 3 "~" H 3350 2350 50  0001 C CNN
+	1    3350 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 2200 3250 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP17
+U 1 1 5D3C85F4
+P 3250 2350
+F 0 "JP17" H 3000 2400 50  0000 L CNN
+F 1 "63" H 3550 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3250 2350 50  0001 C CNN
+F 3 "~" H 3250 2350 50  0001 C CNN
+	1    3250 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 2200 3150 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP16
+U 1 1 5D3C85FF
+P 3150 2350
+F 0 "JP16" H 2900 2400 50  0000 L CNN
+F 1 "64" H 3450 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3150 2350 50  0001 C CNN
+F 3 "~" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 2200 3050 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP15
+U 1 1 5D3C860A
+P 3050 2350
+F 0 "JP15" H 2800 2400 50  0000 L CNN
+F 1 "65" H 3350 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3050 2350 50  0001 C CNN
+F 3 "~" H 3050 2350 50  0001 C CNN
+	1    3050 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2200 2950 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP14
+U 1 1 5D3C8615
+P 2950 2350
+F 0 "JP14" H 2700 2400 50  0000 L CNN
+F 1 "66" H 3250 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2950 2350 50  0001 C CNN
+F 3 "~" H 2950 2350 50  0001 C CNN
+	1    2950 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 2200 2850 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP13
+U 1 1 5D3C8620
+P 2850 2350
+F 0 "JP13" H 2600 2400 50  0000 L CNN
+F 1 "67" H 3150 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2850 2350 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+	1    2850 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 2200 2750 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP12
+U 1 1 5D3C862B
+P 2750 2350
+F 0 "JP12" H 2500 2400 50  0000 L CNN
+F 1 "68" H 3050 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2750 2350 50  0001 C CNN
+F 3 "~" H 2750 2350 50  0001 C CNN
+	1    2750 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 2200 2650 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP11
+U 1 1 5D3C8636
+P 2650 2350
+F 0 "JP11" H 2400 2400 50  0000 L CNN
+F 1 "69" H 2950 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2650 2350 50  0001 C CNN
+F 3 "~" H 2650 2350 50  0001 C CNN
+	1    2650 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 2200 2550 1600
+$Comp
+L Jumper:SolderJumper_2_Open JP10
+U 1 1 5D3F3020
+P 2550 2350
+F 0 "JP10" H 2300 2400 50  0000 L CNN
+F 1 "70" H 2850 2350 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2550 2350 50  0001 C CNN
+F 3 "~" H 2550 2350 50  0001 C CNN
+	1    2550 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 2500 9250 2500
+Connection ~ 4750 2500
+Wire Wire Line
+	4750 2500 4650 2500
+Connection ~ 4850 2500
+Wire Wire Line
+	4850 2500 4750 2500
+Connection ~ 4950 2500
+Wire Wire Line
+	4950 2500 4850 2500
+Connection ~ 5050 2500
+Wire Wire Line
+	5050 2500 4950 2500
+Connection ~ 5150 2500
+Wire Wire Line
+	5150 2500 5050 2500
+Connection ~ 5250 2500
+Wire Wire Line
+	5250 2500 5150 2500
+Connection ~ 5350 2500
+Wire Wire Line
+	5350 2500 5250 2500
+Connection ~ 5450 2500
+Wire Wire Line
+	5450 2500 5350 2500
+Connection ~ 5550 2500
+Wire Wire Line
+	5550 2500 5450 2500
+Connection ~ 5650 2500
+Wire Wire Line
+	5650 2500 5550 2500
+Connection ~ 5750 2500
+Wire Wire Line
+	5750 2500 5650 2500
+Connection ~ 5850 2500
+Wire Wire Line
+	5850 2500 5750 2500
+Connection ~ 5950 2500
+Wire Wire Line
+	5950 2500 5850 2500
+Connection ~ 6050 2500
+Wire Wire Line
+	6050 2500 5950 2500
+Connection ~ 6150 2500
+Wire Wire Line
+	6150 2500 6050 2500
+Connection ~ 6250 2500
+Wire Wire Line
+	6250 2500 6150 2500
+Connection ~ 6350 2500
+Wire Wire Line
+	6350 2500 6250 2500
+Connection ~ 6450 2500
+Wire Wire Line
+	6450 2500 6350 2500
+Connection ~ 6550 2500
+Wire Wire Line
+	6550 2500 6450 2500
+Connection ~ 6650 2500
+Wire Wire Line
+	6650 2500 6550 2500
+Connection ~ 6750 2500
+Wire Wire Line
+	6750 2500 6650 2500
+Connection ~ 6850 2500
+Wire Wire Line
+	6850 2500 6750 2500
+Connection ~ 6950 2500
+Wire Wire Line
+	6950 2500 6850 2500
+Connection ~ 7050 2500
+Wire Wire Line
+	7050 2500 6950 2500
+Connection ~ 7150 2500
+Wire Wire Line
+	7150 2500 7050 2500
+Connection ~ 7250 2500
+Wire Wire Line
+	7250 2500 7150 2500
+Connection ~ 7350 2500
+Wire Wire Line
+	7350 2500 7250 2500
+Connection ~ 7450 2500
+Wire Wire Line
+	7450 2500 7350 2500
+Connection ~ 7550 2500
+Wire Wire Line
+	7550 2500 7450 2500
+Connection ~ 7650 2500
+Wire Wire Line
+	7650 2500 7550 2500
+Connection ~ 7750 2500
+Wire Wire Line
+	7750 2500 7650 2500
+Connection ~ 7850 2500
+Wire Wire Line
+	7850 2500 7750 2500
+Connection ~ 7950 2500
+Wire Wire Line
+	7950 2500 7850 2500
+Connection ~ 8050 2500
+Wire Wire Line
+	8050 2500 7950 2500
+Connection ~ 8150 2500
+Wire Wire Line
+	8150 2500 8050 2500
+Connection ~ 8250 2500
+Wire Wire Line
+	8250 2500 8150 2500
+Connection ~ 8350 2500
+Wire Wire Line
+	8350 2500 8250 2500
+Connection ~ 8450 2500
+Wire Wire Line
+	8450 2500 8350 2500
+Connection ~ 8550 2500
+Wire Wire Line
+	8550 2500 8450 2500
+Connection ~ 8650 2500
+Wire Wire Line
+	8650 2500 8550 2500
+Connection ~ 8750 2500
+Wire Wire Line
+	8750 2500 8650 2500
+Connection ~ 8850 2500
+Wire Wire Line
+	8850 2500 8750 2500
+Connection ~ 8950 2500
+Wire Wire Line
+	8950 2500 8850 2500
+Connection ~ 9050 2500
+Wire Wire Line
+	9050 2500 8950 2500
+Connection ~ 9150 2500
+Wire Wire Line
+	9150 2500 9050 2500
+Connection ~ 9250 2500
+Wire Wire Line
+	9250 2500 9150 2500
+Wire Wire Line
+	4650 2500 4550 2500
+Connection ~ 4650 2500
+Connection ~ 2550 2500
+Wire Wire Line
+	2550 2500 2350 2500
+Connection ~ 2650 2500
+Wire Wire Line
+	2650 2500 2550 2500
+Connection ~ 2750 2500
+Wire Wire Line
+	2750 2500 2650 2500
+Connection ~ 2850 2500
+Wire Wire Line
+	2850 2500 2750 2500
+Connection ~ 2950 2500
+Wire Wire Line
+	2950 2500 2850 2500
+Connection ~ 3050 2500
+Wire Wire Line
+	3050 2500 2950 2500
+Connection ~ 3150 2500
+Wire Wire Line
+	3150 2500 3050 2500
+Connection ~ 3250 2500
+Wire Wire Line
+	3250 2500 3150 2500
+Connection ~ 3350 2500
+Wire Wire Line
+	3350 2500 3250 2500
+Connection ~ 3450 2500
+Wire Wire Line
+	3450 2500 3350 2500
+Connection ~ 3550 2500
+Wire Wire Line
+	3550 2500 3450 2500
+Connection ~ 3650 2500
+Wire Wire Line
+	3650 2500 3550 2500
+Connection ~ 3750 2500
+Wire Wire Line
+	3750 2500 3650 2500
+Connection ~ 3850 2500
+Wire Wire Line
+	3850 2500 3750 2500
+Connection ~ 3950 2500
+Wire Wire Line
+	3950 2500 3850 2500
+Connection ~ 4050 2500
+Wire Wire Line
+	4050 2500 3950 2500
+Connection ~ 4150 2500
+Wire Wire Line
+	4150 2500 4050 2500
+Wire Wire Line
+	9350 2500 9450 2500
+Connection ~ 9350 2500
+Wire Wire Line
+	9450 2500 9450 1600
+Wire Wire Line
+	4250 1600 4250 2500
+Connection ~ 4250 2500
+Wire Wire Line
+	4250 2500 4150 2500
+Wire Wire Line
+	4350 1600 4350 2500
+Connection ~ 4350 2500
+Wire Wire Line
+	4350 2500 4250 2500
+Wire Wire Line
+	4450 1600 4450 2500
+Connection ~ 4450 2500
+Wire Wire Line
+	4450 2500 4350 2500
+Wire Wire Line
+	4550 1600 4550 2500
+Connection ~ 4550 2500
+Wire Wire Line
+	4550 2500 4450 2500
+$Comp
+L EMP-20~Module:EMP_Socket J2
+U 1 1 5D48C9DD
+P 9450 3650
+F 0 "J2" V 8700 -300 50  0000 C CNN
+F 1 "SIDE B" V 8800 -300 50  0000 C CNN
+F 2 "Conn:EDGE_DIMM_80_127" H 9450 3650 50  0001 C CNN
+F 3 "" H 9450 3650 50  0001 C CNN
+	1    9450 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP75
+U 1 1 5D48C9E7
+P 1650 4100
+F 0 "JP75" H 1400 4150 50  0000 L CNN
+F 1 "ID0" H 1900 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1650 4100 50  0001 C CNN
+F 3 "~" H 1650 4100 50  0001 C CNN
+	1    1650 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP76
+U 1 1 5D48C9F1
+P 1750 4100
+F 0 "JP76" H 1500 4150 50  0000 L CNN
+F 1 "ID1" H 2000 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1750 4100 50  0001 C CNN
+F 3 "~" H 1750 4100 50  0001 C CNN
+	1    1750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP77
+U 1 1 5D48C9FB
+P 1850 4100
+F 0 "JP77" H 1600 4150 50  0000 L CNN
+F 1 "ID2" H 2100 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1850 4100 50  0001 C CNN
+F 3 "~" H 1850 4100 50  0001 C CNN
+	1    1850 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP78
+U 1 1 5D48CA05
+P 1950 4100
+F 0 "JP78" H 1700 4150 50  0000 L CNN
+F 1 "ID3" H 2200 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 1950 4100 50  0001 C CNN
+F 3 "~" H 1950 4100 50  0001 C CNN
+	1    1950 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP79
+U 1 1 5D48CA0F
+P 2050 4100
+F 0 "JP79" H 1800 4150 50  0000 L CNN
+F 1 "ID4" H 2300 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2050 4100 50  0001 C CNN
+F 3 "~" H 2050 4100 50  0001 C CNN
+	1    2050 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP80
+U 1 1 5D48CA19
+P 2150 4100
+F 0 "JP80" H 1900 4150 50  0000 L CNN
+F 1 "ID5" H 2400 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2150 4100 50  0001 C CNN
+F 3 "~" H 2150 4100 50  0001 C CNN
+	1    2150 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP81
+U 1 1 5D48CA23
+P 2250 4100
+F 0 "JP81" H 2000 4150 50  0000 L CNN
+F 1 "ID6" H 2500 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2250 4100 50  0001 C CNN
+F 3 "~" H 2250 4100 50  0001 C CNN
+	1    2250 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 3850 1550 4300
+Wire Wire Line
+	1550 4300 1650 4300
+Wire Wire Line
+	2250 4300 2250 4250
+Wire Wire Line
+	2150 4250 2150 4300
+Connection ~ 2150 4300
+Wire Wire Line
+	2150 4300 2250 4300
+Wire Wire Line
+	2050 4250 2050 4300
+Connection ~ 2050 4300
+Wire Wire Line
+	2050 4300 2150 4300
+Wire Wire Line
+	1950 4250 1950 4300
+Connection ~ 1950 4300
+Wire Wire Line
+	1950 4300 2050 4300
+Wire Wire Line
+	1850 4250 1850 4300
+Connection ~ 1850 4300
+Wire Wire Line
+	1850 4300 1950 4300
+Wire Wire Line
+	1750 4250 1750 4300
+Connection ~ 1750 4300
+Wire Wire Line
+	1750 4300 1850 4300
+Wire Wire Line
+	1650 4250 1650 4300
+Connection ~ 1650 4300
+Wire Wire Line
+	1650 4300 1750 4300
+Wire Wire Line
+	1650 3950 1650 3850
+Wire Wire Line
+	1750 3950 1750 3850
+Wire Wire Line
+	1850 3950 1850 3850
+Wire Wire Line
+	1950 3950 1950 3850
+Wire Wire Line
+	2050 3950 2050 3850
+Wire Wire Line
+	2150 3950 2150 3850
+Wire Wire Line
+	2250 3950 2250 3850
+Wire Wire Line
+	2350 4450 2350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP83
+U 1 1 5D48CA4A
+P 2450 4100
+F 0 "JP83" H 2200 4150 50  0000 L CNN
+F 1 "ID7" H 2700 4100 50  0000 L CNN
+F 2 "Conn:JMP1608" H 2450 4100 50  0001 C CNN
+F 3 "~" H 2450 4100 50  0001 C CNN
+	1    2450 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2450 3950 2450 3850
+Wire Wire Line
+	2450 4250 2450 4300
+Wire Wire Line
+	2450 4300 2250 4300
+Connection ~ 2250 4300
+$Comp
+L Jumper:SolderJumper_2_Open JP82
+U 1 1 5D48CA58
+P 2350 4600
+F 0 "JP82" H 2100 4650 50  0000 L CNN
+F 1 "72" H 2600 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2350 4600 50  0001 C CNN
+F 3 "~" H 2350 4600 50  0001 C CNN
+	1    2350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4450 9350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP148
+U 1 1 5D48CA63
+P 9350 4600
+F 0 "JP148" H 9100 4650 50  0000 L CNN
+F 1 "2" H 9650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9350 4600 50  0001 C CNN
+F 3 "~" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 4450 9250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP147
+U 1 1 5D48CA6E
+P 9250 4600
+F 0 "JP147" H 9000 4650 50  0000 L CNN
+F 1 "3" H 9550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9250 4600 50  0001 C CNN
+F 3 "~" H 9250 4600 50  0001 C CNN
+	1    9250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9150 4450 9150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP146
+U 1 1 5D48CA79
+P 9150 4600
+F 0 "JP146" H 8900 4650 50  0000 L CNN
+F 1 "4" H 9450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9150 4600 50  0001 C CNN
+F 3 "~" H 9150 4600 50  0001 C CNN
+	1    9150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 4450 9050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP145
+U 1 1 5D48CA84
+P 9050 4600
+F 0 "JP145" H 8800 4650 50  0000 L CNN
+F 1 "5" H 9350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 9050 4600 50  0001 C CNN
+F 3 "~" H 9050 4600 50  0001 C CNN
+	1    9050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 4450 8950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP144
+U 1 1 5D48CA8F
+P 8950 4600
+F 0 "JP144" H 8700 4650 50  0000 L CNN
+F 1 "6" H 9250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8950 4600 50  0001 C CNN
+F 3 "~" H 8950 4600 50  0001 C CNN
+	1    8950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8850 4450 8850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP143
+U 1 1 5D48CA9A
+P 8850 4600
+F 0 "JP143" H 8600 4650 50  0000 L CNN
+F 1 "7" H 9150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8850 4600 50  0001 C CNN
+F 3 "~" H 8850 4600 50  0001 C CNN
+	1    8850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 4450 8750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP142
+U 1 1 5D48CAA5
+P 8750 4600
+F 0 "JP142" H 8500 4650 50  0000 L CNN
+F 1 "8" H 9050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8750 4600 50  0001 C CNN
+F 3 "~" H 8750 4600 50  0001 C CNN
+	1    8750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8650 4450 8650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP141
+U 1 1 5D48CAB0
+P 8650 4600
+F 0 "JP141" H 8400 4650 50  0000 L CNN
+F 1 "9" H 8950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8650 4600 50  0001 C CNN
+F 3 "~" H 8650 4600 50  0001 C CNN
+	1    8650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8550 4450 8550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP140
+U 1 1 5D48CABB
+P 8550 4600
+F 0 "JP140" H 8300 4650 50  0000 L CNN
+F 1 "10" H 8850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8550 4600 50  0001 C CNN
+F 3 "~" H 8550 4600 50  0001 C CNN
+	1    8550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 4450 8450 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP139
+U 1 1 5D48CAC6
+P 8450 4600
+F 0 "JP139" H 8200 4650 50  0000 L CNN
+F 1 "11" H 8750 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8450 4600 50  0001 C CNN
+F 3 "~" H 8450 4600 50  0001 C CNN
+	1    8450 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8350 4450 8350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP138
+U 1 1 5D48CAD1
+P 8350 4600
+F 0 "JP138" H 8100 4650 50  0000 L CNN
+F 1 "12" H 8650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8350 4600 50  0001 C CNN
+F 3 "~" H 8350 4600 50  0001 C CNN
+	1    8350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8250 4450 8250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP137
+U 1 1 5D48CADC
+P 8250 4600
+F 0 "JP137" H 8000 4650 50  0000 L CNN
+F 1 "13" H 8550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8250 4600 50  0001 C CNN
+F 3 "~" H 8250 4600 50  0001 C CNN
+	1    8250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8150 4450 8150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP136
+U 1 1 5D48CAE7
+P 8150 4600
+F 0 "JP136" H 7900 4650 50  0000 L CNN
+F 1 "14" H 8450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8150 4600 50  0001 C CNN
+F 3 "~" H 8150 4600 50  0001 C CNN
+	1    8150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8050 4450 8050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP135
+U 1 1 5D48CAF2
+P 8050 4600
+F 0 "JP135" H 7800 4650 50  0000 L CNN
+F 1 "15" H 8350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 8050 4600 50  0001 C CNN
+F 3 "~" H 8050 4600 50  0001 C CNN
+	1    8050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 4450 7950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP134
+U 1 1 5D48CAFD
+P 7950 4600
+F 0 "JP134" H 7700 4650 50  0000 L CNN
+F 1 "16" H 8250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7950 4600 50  0001 C CNN
+F 3 "~" H 7950 4600 50  0001 C CNN
+	1    7950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 4450 7850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP133
+U 1 1 5D48CB08
+P 7850 4600
+F 0 "JP133" H 7600 4650 50  0000 L CNN
+F 1 "17" H 8150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7850 4600 50  0001 C CNN
+F 3 "~" H 7850 4600 50  0001 C CNN
+	1    7850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 4450 7750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP132
+U 1 1 5D48CB13
+P 7750 4600
+F 0 "JP132" H 7500 4650 50  0000 L CNN
+F 1 "18" H 8050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7750 4600 50  0001 C CNN
+F 3 "~" H 7750 4600 50  0001 C CNN
+	1    7750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 4450 7650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP131
+U 1 1 5D48CB1E
+P 7650 4600
+F 0 "JP131" H 7400 4650 50  0000 L CNN
+F 1 "19" H 7950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7650 4600 50  0001 C CNN
+F 3 "~" H 7650 4600 50  0001 C CNN
+	1    7650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7550 4450 7550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP130
+U 1 1 5D48CB29
+P 7550 4600
+F 0 "JP130" H 7300 4650 50  0000 L CNN
+F 1 "20" H 7850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7550 4600 50  0001 C CNN
+F 3 "~" H 7550 4600 50  0001 C CNN
+	1    7550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7450 4450 7450 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP129
+U 1 1 5D48CB34
+P 7450 4600
+F 0 "JP129" H 7200 4650 50  0000 L CNN
+F 1 "21" H 7750 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7450 4600 50  0001 C CNN
+F 3 "~" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7350 4450 7350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP128
+U 1 1 5D48CB3F
+P 7350 4600
+F 0 "JP128" H 7100 4650 50  0000 L CNN
+F 1 "22" H 7650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7350 4600 50  0001 C CNN
+F 3 "~" H 7350 4600 50  0001 C CNN
+	1    7350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 4450 7250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP127
+U 1 1 5D48CB4A
+P 7250 4600
+F 0 "JP127" H 7000 4650 50  0000 L CNN
+F 1 "23" H 7550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7250 4600 50  0001 C CNN
+F 3 "~" H 7250 4600 50  0001 C CNN
+	1    7250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 4450 7150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP126
+U 1 1 5D48CB55
+P 7150 4600
+F 0 "JP126" H 6900 4650 50  0000 L CNN
+F 1 "24" H 7450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7150 4600 50  0001 C CNN
+F 3 "~" H 7150 4600 50  0001 C CNN
+	1    7150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 4450 7050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP125
+U 1 1 5D48CB60
+P 7050 4600
+F 0 "JP125" H 6800 4650 50  0000 L CNN
+F 1 "25" H 7350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 7050 4600 50  0001 C CNN
+F 3 "~" H 7050 4600 50  0001 C CNN
+	1    7050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6950 4450 6950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP124
+U 1 1 5D48CB6B
+P 6950 4600
+F 0 "JP124" H 6700 4650 50  0000 L CNN
+F 1 "26" H 7250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6950 4600 50  0001 C CNN
+F 3 "~" H 6950 4600 50  0001 C CNN
+	1    6950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 4450 6850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP123
+U 1 1 5D48CB76
+P 6850 4600
+F 0 "JP123" H 6600 4650 50  0000 L CNN
+F 1 "27" H 7150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6850 4600 50  0001 C CNN
+F 3 "~" H 6850 4600 50  0001 C CNN
+	1    6850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6750 4450 6750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP122
+U 1 1 5D48CB81
+P 6750 4600
+F 0 "JP122" H 6500 4650 50  0000 L CNN
+F 1 "28" H 7050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6750 4600 50  0001 C CNN
+F 3 "~" H 6750 4600 50  0001 C CNN
+	1    6750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6650 4450 6650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP121
+U 1 1 5D48CB8C
+P 6650 4600
+F 0 "JP121" H 6400 4650 50  0000 L CNN
+F 1 "29" H 6950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6650 4600 50  0001 C CNN
+F 3 "~" H 6650 4600 50  0001 C CNN
+	1    6650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 4450 6550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP120
+U 1 1 5D48CB97
+P 6550 4600
+F 0 "JP120" H 6300 4650 50  0000 L CNN
+F 1 "30" H 6850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6550 4600 50  0001 C CNN
+F 3 "~" H 6550 4600 50  0001 C CNN
+	1    6550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6450 4450 6450 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP119
+U 1 1 5D48CBA2
+P 6450 4600
+F 0 "JP119" H 6200 4650 50  0000 L CNN
+F 1 "31" H 6750 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6450 4600 50  0001 C CNN
+F 3 "~" H 6450 4600 50  0001 C CNN
+	1    6450 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4450 6350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP118
+U 1 1 5D48CBAD
+P 6350 4600
+F 0 "JP118" H 6100 4650 50  0000 L CNN
+F 1 "32" H 6650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6350 4600 50  0001 C CNN
+F 3 "~" H 6350 4600 50  0001 C CNN
+	1    6350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 4450 6250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP117
+U 1 1 5D48CBB8
+P 6250 4600
+F 0 "JP117" H 6000 4650 50  0000 L CNN
+F 1 "33" H 6550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6250 4600 50  0001 C CNN
+F 3 "~" H 6250 4600 50  0001 C CNN
+	1    6250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 4450 6150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP116
+U 1 1 5D48CBC3
+P 6150 4600
+F 0 "JP116" H 5900 4650 50  0000 L CNN
+F 1 "34" H 6450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6150 4600 50  0001 C CNN
+F 3 "~" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 4450 6050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP115
+U 1 1 5D48CBCE
+P 6050 4600
+F 0 "JP115" H 5800 4650 50  0000 L CNN
+F 1 "35" H 6350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 6050 4600 50  0001 C CNN
+F 3 "~" H 6050 4600 50  0001 C CNN
+	1    6050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5950 4450 5950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP114
+U 1 1 5D48CBD9
+P 5950 4600
+F 0 "JP114" H 5700 4650 50  0000 L CNN
+F 1 "36" H 6250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5950 4600 50  0001 C CNN
+F 3 "~" H 5950 4600 50  0001 C CNN
+	1    5950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 4450 5850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP113
+U 1 1 5D48CBE4
+P 5850 4600
+F 0 "JP113" H 5600 4650 50  0000 L CNN
+F 1 "37" H 6150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5850 4600 50  0001 C CNN
+F 3 "~" H 5850 4600 50  0001 C CNN
+	1    5850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 4450 5750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP112
+U 1 1 5D48CBEF
+P 5750 4600
+F 0 "JP112" H 5500 4650 50  0000 L CNN
+F 1 "38" H 6050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5750 4600 50  0001 C CNN
+F 3 "~" H 5750 4600 50  0001 C CNN
+	1    5750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 4450 5650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP111
+U 1 1 5D48CBFA
+P 5650 4600
+F 0 "JP111" H 5400 4650 50  0000 L CNN
+F 1 "39" H 5950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5650 4600 50  0001 C CNN
+F 3 "~" H 5650 4600 50  0001 C CNN
+	1    5650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4450 5550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP110
+U 1 1 5D48CC05
+P 5550 4600
+F 0 "JP110" H 5300 4650 50  0000 L CNN
+F 1 "40" H 5850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5550 4600 50  0001 C CNN
+F 3 "~" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5450 4450 5450 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP109
+U 1 1 5D48CC10
+P 5450 4600
+F 0 "JP109" H 5200 4650 50  0000 L CNN
+F 1 "41" H 5750 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5450 4600 50  0001 C CNN
+F 3 "~" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4450 5350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP108
+U 1 1 5D48CC1B
+P 5350 4600
+F 0 "JP108" H 5100 4650 50  0000 L CNN
+F 1 "42" H 5650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5350 4600 50  0001 C CNN
+F 3 "~" H 5350 4600 50  0001 C CNN
+	1    5350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 4450 5250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP107
+U 1 1 5D48CC26
+P 5250 4600
+F 0 "JP107" H 5000 4650 50  0000 L CNN
+F 1 "43" H 5550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5250 4600 50  0001 C CNN
+F 3 "~" H 5250 4600 50  0001 C CNN
+	1    5250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5150 4450 5150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP106
+U 1 1 5D48CC31
+P 5150 4600
+F 0 "JP106" H 4900 4650 50  0000 L CNN
+F 1 "44" H 5450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5150 4600 50  0001 C CNN
+F 3 "~" H 5150 4600 50  0001 C CNN
+	1    5150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4450 5050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP105
+U 1 1 5D48CC3C
+P 5050 4600
+F 0 "JP105" H 4800 4650 50  0000 L CNN
+F 1 "45" H 5350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 5050 4600 50  0001 C CNN
+F 3 "~" H 5050 4600 50  0001 C CNN
+	1    5050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4950 4450 4950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP104
+U 1 1 5D48CC47
+P 4950 4600
+F 0 "JP104" H 4700 4650 50  0000 L CNN
+F 1 "46" H 5250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4950 4600 50  0001 C CNN
+F 3 "~" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4450 4850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP103
+U 1 1 5D48CC52
+P 4850 4600
+F 0 "JP103" H 4600 4650 50  0000 L CNN
+F 1 "47" H 5150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4850 4600 50  0001 C CNN
+F 3 "~" H 4850 4600 50  0001 C CNN
+	1    4850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4450 4750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP102
+U 1 1 5D48CC5D
+P 4750 4600
+F 0 "JP102" H 4500 4650 50  0000 L CNN
+F 1 "48" H 5050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4750 4600 50  0001 C CNN
+F 3 "~" H 4750 4600 50  0001 C CNN
+	1    4750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 4450 4650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP101
+U 1 1 5D48CC68
+P 4650 4600
+F 0 "JP101" H 4400 4650 50  0000 L CNN
+F 1 "49" H 4950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4650 4600 50  0001 C CNN
+F 3 "~" H 4650 4600 50  0001 C CNN
+	1    4650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4450 4150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP100
+U 1 1 5D48CC73
+P 4150 4600
+F 0 "JP100" H 3900 4650 50  0000 L CNN
+F 1 "54" H 4450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4150 4600 50  0001 C CNN
+F 3 "~" H 4150 4600 50  0001 C CNN
+	1    4150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 4450 4050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP99
+U 1 1 5D48CC7E
+P 4050 4600
+F 0 "JP99" H 3800 4650 50  0000 L CNN
+F 1 "55" H 4350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 4050 4600 50  0001 C CNN
+F 3 "~" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3950 4450 3950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP98
+U 1 1 5D48CC89
+P 3950 4600
+F 0 "JP98" H 3700 4650 50  0000 L CNN
+F 1 "56" H 4250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3950 4600 50  0001 C CNN
+F 3 "~" H 3950 4600 50  0001 C CNN
+	1    3950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 4450 3850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP97
+U 1 1 5D48CC94
+P 3850 4600
+F 0 "JP97" H 3600 4650 50  0000 L CNN
+F 1 "57" H 4150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3850 4600 50  0001 C CNN
+F 3 "~" H 3850 4600 50  0001 C CNN
+	1    3850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 4450 3750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP96
+U 1 1 5D48CC9F
+P 3750 4600
+F 0 "JP96" H 3500 4650 50  0000 L CNN
+F 1 "58" H 4050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3750 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4450 3650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP95
+U 1 1 5D48CCAA
+P 3650 4600
+F 0 "JP95" H 3400 4650 50  0000 L CNN
+F 1 "59" H 3950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3650 4600 50  0001 C CNN
+F 3 "~" H 3650 4600 50  0001 C CNN
+	1    3650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 4450 3550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP94
+U 1 1 5D48CCB5
+P 3550 4600
+F 0 "JP94" H 3300 4650 50  0000 L CNN
+F 1 "60" H 3850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3550 4600 50  0001 C CNN
+F 3 "~" H 3550 4600 50  0001 C CNN
+	1    3550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 4450 3450 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP93
+U 1 1 5D48CCC0
+P 3450 4600
+F 0 "JP93" H 3200 4650 50  0000 L CNN
+F 1 "61" H 3750 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3450 4600 50  0001 C CNN
+F 3 "~" H 3450 4600 50  0001 C CNN
+	1    3450 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4450 3350 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP92
+U 1 1 5D48CCCB
+P 3350 4600
+F 0 "JP92" H 3100 4650 50  0000 L CNN
+F 1 "62" H 3650 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3350 4600 50  0001 C CNN
+F 3 "~" H 3350 4600 50  0001 C CNN
+	1    3350 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3250 4450 3250 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP91
+U 1 1 5D48CCD6
+P 3250 4600
+F 0 "JP91" H 3000 4650 50  0000 L CNN
+F 1 "63" H 3550 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3250 4600 50  0001 C CNN
+F 3 "~" H 3250 4600 50  0001 C CNN
+	1    3250 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 4450 3150 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP90
+U 1 1 5D48CCE1
+P 3150 4600
+F 0 "JP90" H 2900 4650 50  0000 L CNN
+F 1 "64" H 3450 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3150 4600 50  0001 C CNN
+F 3 "~" H 3150 4600 50  0001 C CNN
+	1    3150 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 4450 3050 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP89
+U 1 1 5D48CCEC
+P 3050 4600
+F 0 "JP89" H 2800 4650 50  0000 L CNN
+F 1 "65" H 3350 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 3050 4600 50  0001 C CNN
+F 3 "~" H 3050 4600 50  0001 C CNN
+	1    3050 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 4450 2950 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP88
+U 1 1 5D48CCF7
+P 2950 4600
+F 0 "JP88" H 2700 4650 50  0000 L CNN
+F 1 "66" H 3250 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2950 4600 50  0001 C CNN
+F 3 "~" H 2950 4600 50  0001 C CNN
+	1    2950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2850 4450 2850 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP87
+U 1 1 5D48CD02
+P 2850 4600
+F 0 "JP87" H 2600 4650 50  0000 L CNN
+F 1 "67" H 3150 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2850 4600 50  0001 C CNN
+F 3 "~" H 2850 4600 50  0001 C CNN
+	1    2850 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 4450 2750 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP86
+U 1 1 5D48CD0D
+P 2750 4600
+F 0 "JP86" H 2500 4650 50  0000 L CNN
+F 1 "68" H 3050 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2750 4600 50  0001 C CNN
+F 3 "~" H 2750 4600 50  0001 C CNN
+	1    2750 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 4450 2650 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP85
+U 1 1 5D48CD18
+P 2650 4600
+F 0 "JP85" H 2400 4650 50  0000 L CNN
+F 1 "69" H 2950 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2650 4600 50  0001 C CNN
+F 3 "~" H 2650 4600 50  0001 C CNN
+	1    2650 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 4450 2550 3850
+$Comp
+L Jumper:SolderJumper_2_Open JP84
+U 1 1 5D48CD23
+P 2550 4600
+F 0 "JP84" H 2300 4650 50  0000 L CNN
+F 1 "70" H 2850 4600 50  0000 L CNN
+F 2 "Passive:RESC1608X55_HandSoldering" H 2550 4600 50  0001 C CNN
+F 3 "~" H 2550 4600 50  0001 C CNN
+	1    2550 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9350 4750 9250 4750
+Connection ~ 4750 4750
+Wire Wire Line
+	4750 4750 4650 4750
+Connection ~ 4850 4750
+Wire Wire Line
+	4850 4750 4750 4750
+Connection ~ 4950 4750
+Wire Wire Line
+	4950 4750 4850 4750
+Connection ~ 5050 4750
+Wire Wire Line
+	5050 4750 4950 4750
+Connection ~ 5150 4750
+Wire Wire Line
+	5150 4750 5050 4750
+Connection ~ 5250 4750
+Wire Wire Line
+	5250 4750 5150 4750
+Connection ~ 5350 4750
+Wire Wire Line
+	5350 4750 5250 4750
+Connection ~ 5450 4750
+Wire Wire Line
+	5450 4750 5350 4750
+Connection ~ 5550 4750
+Wire Wire Line
+	5550 4750 5450 4750
+Connection ~ 5650 4750
+Wire Wire Line
+	5650 4750 5550 4750
+Connection ~ 5750 4750
+Wire Wire Line
+	5750 4750 5650 4750
+Connection ~ 5850 4750
+Wire Wire Line
+	5850 4750 5750 4750
+Connection ~ 5950 4750
+Wire Wire Line
+	5950 4750 5850 4750
+Connection ~ 6050 4750
+Wire Wire Line
+	6050 4750 5950 4750
+Connection ~ 6150 4750
+Wire Wire Line
+	6150 4750 6050 4750
+Connection ~ 6250 4750
+Wire Wire Line
+	6250 4750 6150 4750
+Connection ~ 6350 4750
+Wire Wire Line
+	6350 4750 6250 4750
+Connection ~ 6450 4750
+Wire Wire Line
+	6450 4750 6350 4750
+Connection ~ 6550 4750
+Wire Wire Line
+	6550 4750 6450 4750
+Connection ~ 6650 4750
+Wire Wire Line
+	6650 4750 6550 4750
+Connection ~ 6750 4750
+Wire Wire Line
+	6750 4750 6650 4750
+Connection ~ 6850 4750
+Wire Wire Line
+	6850 4750 6750 4750
+Connection ~ 6950 4750
+Wire Wire Line
+	6950 4750 6850 4750
+Connection ~ 7050 4750
+Wire Wire Line
+	7050 4750 6950 4750
+Connection ~ 7150 4750
+Wire Wire Line
+	7150 4750 7050 4750
+Connection ~ 7250 4750
+Wire Wire Line
+	7250 4750 7150 4750
+Connection ~ 7350 4750
+Wire Wire Line
+	7350 4750 7250 4750
+Connection ~ 7450 4750
+Wire Wire Line
+	7450 4750 7350 4750
+Connection ~ 7550 4750
+Wire Wire Line
+	7550 4750 7450 4750
+Connection ~ 7650 4750
+Wire Wire Line
+	7650 4750 7550 4750
+Connection ~ 7750 4750
+Wire Wire Line
+	7750 4750 7650 4750
+Connection ~ 7850 4750
+Wire Wire Line
+	7850 4750 7750 4750
+Connection ~ 7950 4750
+Wire Wire Line
+	7950 4750 7850 4750
+Connection ~ 8050 4750
+Wire Wire Line
+	8050 4750 7950 4750
+Connection ~ 8150 4750
+Wire Wire Line
+	8150 4750 8050 4750
+Connection ~ 8250 4750
+Wire Wire Line
+	8250 4750 8150 4750
+Connection ~ 8350 4750
+Wire Wire Line
+	8350 4750 8250 4750
+Connection ~ 8450 4750
+Wire Wire Line
+	8450 4750 8350 4750
+Connection ~ 8550 4750
+Wire Wire Line
+	8550 4750 8450 4750
+Connection ~ 8650 4750
+Wire Wire Line
+	8650 4750 8550 4750
+Connection ~ 8750 4750
+Wire Wire Line
+	8750 4750 8650 4750
+Connection ~ 8850 4750
+Wire Wire Line
+	8850 4750 8750 4750
+Connection ~ 8950 4750
+Wire Wire Line
+	8950 4750 8850 4750
+Connection ~ 9050 4750
+Wire Wire Line
+	9050 4750 8950 4750
+Connection ~ 9150 4750
+Wire Wire Line
+	9150 4750 9050 4750
+Connection ~ 9250 4750
+Wire Wire Line
+	9250 4750 9150 4750
+Wire Wire Line
+	4650 4750 4550 4750
+Connection ~ 4650 4750
+Connection ~ 2550 4750
+Wire Wire Line
+	2550 4750 2350 4750
+Connection ~ 2650 4750
+Wire Wire Line
+	2650 4750 2550 4750
+Connection ~ 2750 4750
+Wire Wire Line
+	2750 4750 2650 4750
+Connection ~ 2850 4750
+Wire Wire Line
+	2850 4750 2750 4750
+Connection ~ 2950 4750
+Wire Wire Line
+	2950 4750 2850 4750
+Connection ~ 3050 4750
+Wire Wire Line
+	3050 4750 2950 4750
+Connection ~ 3150 4750
+Wire Wire Line
+	3150 4750 3050 4750
+Connection ~ 3250 4750
+Wire Wire Line
+	3250 4750 3150 4750
+Connection ~ 3350 4750
+Wire Wire Line
+	3350 4750 3250 4750
+Connection ~ 3450 4750
+Wire Wire Line
+	3450 4750 3350 4750
+Connection ~ 3550 4750
+Wire Wire Line
+	3550 4750 3450 4750
+Connection ~ 3650 4750
+Wire Wire Line
+	3650 4750 3550 4750
+Connection ~ 3750 4750
+Wire Wire Line
+	3750 4750 3650 4750
+Connection ~ 3850 4750
+Wire Wire Line
+	3850 4750 3750 4750
+Connection ~ 3950 4750
+Wire Wire Line
+	3950 4750 3850 4750
+Connection ~ 4050 4750
+Wire Wire Line
+	4050 4750 3950 4750
+Connection ~ 4150 4750
+Wire Wire Line
+	4150 4750 4050 4750
+Wire Wire Line
+	9350 4750 9450 4750
+Connection ~ 9350 4750
+Wire Wire Line
+	9450 4750 9450 3850
+Wire Wire Line
+	4250 3850 4250 4750
+Connection ~ 4250 4750
+Wire Wire Line
+	4250 4750 4150 4750
+Wire Wire Line
+	4350 3850 4350 4750
+Connection ~ 4350 4750
+Wire Wire Line
+	4350 4750 4250 4750
+Wire Wire Line
+	4450 3850 4450 4750
+Connection ~ 4450 4750
+Wire Wire Line
+	4450 4750 4350 4750
+Wire Wire Line
+	4550 3850 4550 4750
+Connection ~ 4550 4750
+Wire Wire Line
+	4550 4750 4450 4750
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D729311
+P 8000 5700
+F 0 "H1" H 8100 5746 50  0000 L CNN
+F 1 "MountingHole" H 8100 5655 50  0000 L CNN
+F 2 "Conn:MH_125" H 8000 5700 50  0001 C CNN
+F 3 "~" H 8000 5700 50  0001 C CNN
+	1    8000 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D72AAD8
+P 8000 5950
+F 0 "H2" H 8100 5996 50  0000 L CNN
+F 1 "MountingHole" H 8100 5905 50  0000 L CNN
+F 2 "Conn:MH_125" H 8000 5950 50  0001 C CNN
+F 3 "~" H 8000 5950 50  0001 C CNN
+	1    8000 5950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
