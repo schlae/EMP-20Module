@@ -16,7 +16,7 @@ modules by following the chart further down the page.
 
 ## Fabrication
 
-You can download the [fabrication files here](https://github.com/schlae/EMP-20Module/raw/master/EMP-20Module/fab/EMP-20Module-Rev1.zip).
+You can download the [fabrication files here](https://github.com/schlae/EMP-20Module/raw/master/fab/EMP-20Module-Rev1.zip).
 
 Please note that this board is NOT the normal 1.6mm thickness. To fit in the
 SIMM socket, you will need to fabricate it with a 1.2mm thickness. Some fab
