@@ -116,8 +116,8 @@ successfully, then congratulations!
 |       20B | n/a                    | |
 |       21A | n/a                    | |
 |       21B | AT17Cxx                | |
-|       22A | 29F002                 | |
-|       22B | 29F1xx                 | |
+|       22A | 29F002                 | 43 | 2 | 13->72, 17->68, 21->62, 31->58, 33->56 |
+|       22B | 29F1xx                 | 44 | 20, 21 | 2->72, 23->70, 36->62, 39->68, 40->58, 45->56 |
 |       23A | Atmel 150x family      | |
 |       23B | ATV2500                | |
 |       24A | COP87xx                | |
@@ -135,7 +135,8 @@ successfully, then congratulations!
 
 This chart is incomplete. I have ohmed out all the modules I have, but I am
 counting on the community to provide the rest. If you have a module that's
-not on the list, ohm out the connections! You can submit a pull request
+not on the list, ohm out the connections! Pins 1, 50, 51, 52, and 53 are
+always grounded. You can submit a pull request
 or contact me directly.
 
 # License
